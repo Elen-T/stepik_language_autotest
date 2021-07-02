@@ -1,2 +1,1 @@
-# stepik_language_autotest
-stepik_language_autotest
+Задание: запуск автотестов для разных языков интерфейса
