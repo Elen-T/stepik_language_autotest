@@ -16,12 +16,3 @@ def browser(request):
     browser = webdriver.Chrome(options=options)
     yield browser
     browser.quit()
-
-
-# @pytest.fixture(scope="function")
-# def browser():
-#     print("\nstart browser for test..")
-#     browser = webdriver.Chrome()
-#     yield browser
-#     print("\nquit browser..")
-#     browser.quit()
